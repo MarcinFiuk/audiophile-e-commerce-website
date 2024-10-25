@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      maxWidth: {
+        wrapper: "69.375rem",
+      },
     },
   },
   plugins: [],
