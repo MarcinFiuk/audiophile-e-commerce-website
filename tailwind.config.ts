@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "orange-600": "hsl(22, 65, 57)",
+        "orange-dark": "hsl(22, 65, 57)",
         peach: "hsl(21, 94, 75)",
         charcoal: "hsl(0, 0, 6)",
         "light-gray": "hsl(0, 0, 95)",
         "off-white": "hsl(0, 0, 98)",
+      },
+      width: {
+        "25": "6.25rem",
       },
       maxWidth: {
         wrapper: "69.375rem",
