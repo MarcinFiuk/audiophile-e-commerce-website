@@ -5,10 +5,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-charcoal">
-      <div className="m-auto grid max-w-wrapper grid-cols-1 justify-items-center gap-12 px-6 pb-10 pt-13 text-center text-white">
-        <Logo href="/" />
-        <nav className="text-custom-xs tracking-customWidest uppercase">
-          <ul className="flex flex-col gap-4">
+      <div className="xl:pt-18.75 m-auto grid max-w-wrapper grid-cols-1 justify-items-center gap-12 px-6 pb-10 pt-13 text-center text-white md:grid-cols-2 md:justify-items-start md:gap-8 md:px-10 md:pb-11.5 md:pt-15 md:text-start xl:gap-y-9 xl:px-0 xl:pb-12">
+        <Logo href="/" className="w-fit" />
+        <nav className="text-custom-xs uppercase tracking-customWidest md:col-span-2 xl:col-span-1 xl:justify-self-end">
+          <ul className="flex flex-col gap-4 md:flex-row md:gap-8.5">
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -23,15 +23,17 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
-        <p className="text-custom-s">
+        <p className="text-custom-s md:col-span-2 xl:col-span-1">
           Audiophile is an all in one stop to fulfill your audio needs.
           We&apos;re a small team of music lovers and sound specialists who are
           devoted to helping you get the most out of personal audio. Come and
           visit our demo facility - we&apos;re open 7 days a week.
         </p>
-        <p>Copyright 2021. All Rights Reserved</p>
+        <p className="md:pt-12 xl:order-5 xl:pt-5">
+          Copyright 2021. All Rights Reserved
+        </p>
 
-        <nav>
+        <nav className="md:justify-self-end md:pt-12 xl:self-end xl:pt-0">
           <ul className="flex flex-row gap-4">
             <li>
               <SocialIcon name="facebook" href="https://www.facebook.com/" />

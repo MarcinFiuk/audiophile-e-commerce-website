@@ -18,8 +18,14 @@ const config: Config = {
       maxWidth: {
         wrapper: "69.375rem",
       },
+      gap: {
+        "8.5": "2.125rem",
+      },
       padding: {
+        "11.5": "2.875rem",
         "13": "3.25rem",
+        "15": "3.75rem",
+        "18.75": "4.6875rem",
       },
       fontSize: {
         "custom-s": ["0.9375rem", "1.67"],
